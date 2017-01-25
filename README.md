@@ -1,12 +1,18 @@
-# Personal
-Õâ¸öÏîÄ¿ÊÇÎÒ×Ô¼º¼ÇÂ¼µÄÒ»Ğ©´úÂë
-Èç¹û¶ÔÄãÓĞÓÃ£¬ÎÒ¸Ğµ½·Ç³£ÈÙĞÒ
-Èç¹ûÄÄ¸ö´óÉñÃ»ÊÂ×öÒ²¿ÉÒÔ¸øÎÒÌáÏÂÒâ¼û
-·Ç³£¸ĞĞ»
+# è¯´æ˜
+è¿™ä¸ªé¡¹ç›®æ˜¯æˆ‘è‡ªå·±è®°å½•çš„ä¸€äº›ä»£ç 
 
-Since my English is not good, the following is Google translation
+å¦‚æœå¯¹ä½ æœ‰ç”¨ï¼Œæˆ‘æ„Ÿåˆ°éå¸¸è£å¹¸
+
+å¦‚æœå“ªä¸ªå¤§ç¥æ²¡äº‹åšä¹Ÿå¯ä»¥ç»™æˆ‘æä¸‹æ„è§
+
+éå¸¸æ„Ÿè°¢
+
+#Since my English is not good, the following is Google translation
 
 This project is my own record of some code
+
 If you are useful, I feel very honored
+
 If the elite can give me optimization advice
+
 Thank you very much
