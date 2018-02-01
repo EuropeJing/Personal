@@ -2,23 +2,23 @@
 :BACK
 color 0F
 cls
-echo ĞŞ¸Äitunes±¸·İÎÄ¼şÂ·¾¶
-echo PS:win7ÒÔÉÏÇëÓÃ¹ÜÀíÔ±Éí·İÔËĞĞ
+echo ä¿®æ”¹ituneså¤‡ä»½æ–‡ä»¶è·¯å¾„
+echo PS:win7ä»¥ä¸Šè¯·ç”¨ç®¡ç†å‘˜èº«ä»½è¿è¡Œ
 
 set path=D:\iTunes Backup
 set pathcheck=D:\iTunes Backup
 
 echo.
-echo Ä¬ÈÏĞŞ¸ÄºóÂ·¾¶Îª"D:\iTunes Backup"
-echo »Ø³µÊäÈëÄ¬ÈÏÂ·¾¶
-set /P path=[ÇëÊäÈëĞŞ¸ÄºóµÄÂ·¾¶£¬²»ÓÃ¼ÓÒıºÅ]
+echo é»˜è®¤ä¿®æ”¹åè·¯å¾„ä¸º"D:\iTunes Backup"
+echo å›è½¦è¾“å…¥é»˜è®¤è·¯å¾„
+set /P path=[è¯·è¾“å…¥ä¿®æ”¹åçš„è·¯å¾„ï¼Œä¸ç”¨åŠ å¼•å·]
 echo.
-echo ĞŞ¸ÄºóÂ·¾¶Îª"%path%"
-set /P pathcheck=[ÇëÖØ¸´Ò»´ÎĞŞ¸ÄºóµÄÂ·¾¶£¬²»ÓÃ¼ÓÒıºÅ]
+echo ä¿®æ”¹åè·¯å¾„ä¸º"%path%"
+set /P pathcheck=[è¯·é‡å¤ä¸€æ¬¡ä¿®æ”¹åçš„è·¯å¾„ï¼Œä¸ç”¨åŠ å¼•å·]
 
 if /i "%path%" == "%pathcheck%" (goto NEXT) else (
 color 4F
-echo Á½´ÎÂ·¾¶²»Ò»ÖÂ
+echo ä¸¤æ¬¡è·¯å¾„ä¸ä¸€è‡´
 pause
 goto BACK
 )
@@ -27,10 +27,10 @@ goto BACK
 color 0A
 echo.
 MD "%path%\Backup"
-copy "C:\Users\%username%\AppData\Roaming\Apple Computer\MobileSync\Backup" "%path%\Backup"
+%SystemRoot%\system32\xcopy "C:\Users\%username%\AppData\Roaming\Apple Computer\MobileSync\Backup" "%path%\Backup" /E /K /O /Y
 if ERRORLEVEL 1 (
   RD /S /Q "%path%\Backup"
-  echo ĞŞ¸ÄÊ§°Ü£¬Çë³¢ÊÔÖØĞÂÔËĞĞÎÄ¼ş
+  echo ä¿®æ”¹å¤±è´¥ï¼Œè¯·å°è¯•é‡æ–°è¿è¡Œæ–‡ä»¶
 ) Else (
   RD /S /Q "C:\Users\%username%\AppData\Roaming\Apple Computer\MobileSync\Backup"
   mklink /J "C:\Users\%username%\AppData\Roaming\Apple Computer\MobileSync\Backup" "%path%\Backup"
